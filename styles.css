@@ -1,0 +1,57 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: #000;
+  color: #0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+#startPage,
+#roomList,
+#gameBoard {
+  margin-top: 20px;
+}
+
+#playerInput h3 {
+  margin-top: 10px;
+}
+
+#playerNames input {
+  width: 200px;
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#addPlayer,
+#removePlayer,
+#startGame,
+#showGame,
+#show {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#addPlayer:hover,
+#removePlayer:hover,
+#startGame:hover,
+#show:hover {
+  background-color: #0ff;
+}
+
+/* Center the button */
+#showGame {
+  margin: 20px auto;
+  display: block;
+}

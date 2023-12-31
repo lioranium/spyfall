@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spyfall Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Spyfall Game</h1>
+
+    <div id="startPage">
+        <h2>Enter Game Settings</h2>
+
+        <div id="playerInput">
+            <h3>Enter Player Names</h3>
+
+            <div id="playerNames">
+                <!-- Player name input elements will be added here dynamically -->
+            </div>
+
+            <button id="addPlayer" class="styled-button">Add Player</button>
+            <button id="removePlayer" class="styled-button">Remove Player</button>
+
+            <h3>Number of Spies:</h3>
+            <input type="number" id="numSpies" class="styled-input" min="1" max="10" value="1">
+
+            <button id="startGame" class="styled-button">Start Game</button>
+        </div>
+    </div>
+
+    <div id="roomList" style="display:none;">
+        <h2>Rooms Available</h2>
+        <ul id="rooms"></ul>
+        <button id="showGame" class="styled-button" style="display:none;">Show Game</button>
+    </div>
+
+    <div id="gameBoard" style="display:none;">
+        <!-- Game Board will be displayed here -->
+        <button id="show" class="styled-button" style="display:none;">Show</button>
+        <button id="resetGame" class="styled-button">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
